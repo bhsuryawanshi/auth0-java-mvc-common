@@ -203,8 +203,8 @@ public class AuthorizeUrl {
 
         // Also store in Session just in case developer uses deprecated
         // AuthenticationController.handle(HttpServletRequest) API
-        RandomStorage.setSessionState(request, state);
-        RandomStorage.setSessionNonce(request, nonce);
+        //RandomStorage.setSessionState(request, state);
+        //RandomStorage.setSessionNonce(request, nonce);
 
         used = true;
         return builder.build();
